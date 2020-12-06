@@ -13,12 +13,15 @@ struct ContentView: View {
     var body: some View {
         HStack {
             ForEach(viewModel.cards) { card in
-                CardView(card: card)
+                CardView(card: card).onTapGesture {
+                    viewModel.choose(card: card)
+                }
             }
         }
         .padding()
         .foregroundColor(Color.orange)
-        .font(Font.largeTitle)
+        .font(viewModel.cards.count < 5 ? Font.largeTitle : .none)
+        .aspectRatio(0.66, contentMode: .fit)
     }
 }
 
