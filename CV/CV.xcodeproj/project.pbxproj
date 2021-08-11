@@ -29,6 +29,7 @@
 		46F178D626C3DEC40074152E /* Montserrat-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 46F178C426C3DEC40074152E /* Montserrat-ExtraLight.ttf */; };
 		46F178D726C3DEC40074152E /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 46F178C526C3DEC40074152E /* Montserrat-Bold.ttf */; };
 		46F178D826C3DEC40074152E /* Montserrat-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 46F178C626C3DEC40074152E /* Montserrat-LightItalic.ttf */; };
+		46F178DB26C3DF550074152E /* ColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F178DA26C3DF550074152E /* ColorExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +57,7 @@
 		46F178C426C3DEC40074152E /* Montserrat-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraLight.ttf"; sourceTree = "<group>"; };
 		46F178C526C3DEC40074152E /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.ttf"; sourceTree = "<group>"; };
 		46F178C626C3DEC40074152E /* Montserrat-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-LightItalic.ttf"; sourceTree = "<group>"; };
+		46F178DA26C3DF550074152E /* ColorExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +118,7 @@
 		46F178AF26C3DD060074152E /* Code */ = {
 			isa = PBXGroup;
 			children = (
+				46F178D926C3DF270074152E /* Extensions */,
 				46F178B326C3DD2E0074152E /* Controllers */,
 				46F178B226C3DD1C0074152E /* Services */,
 				46F178B126C3DD150074152E /* Views */,
@@ -177,6 +180,14 @@
 				46F178C026C3DEC40074152E /* Montserrat-ThinItalic.ttf */,
 			);
 			path = Fonts;
+			sourceTree = "<group>";
+		};
+		46F178D926C3DF270074152E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				46F178DA26C3DF550074152E /* ColorExtensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -268,6 +279,7 @@
 			files = (
 				4672A4C126C3B6CF00BC52DD /* ContentView.swift in Sources */,
 				4672A4BF26C3B6CF00BC52DD /* CVApp.swift in Sources */,
+				46F178DB26C3DF550074152E /* ColorExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
