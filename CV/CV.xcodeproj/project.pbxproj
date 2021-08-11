@@ -36,6 +36,7 @@
 		4650691726C3D906009AAF65 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				46F178B426C3DD680074152E /* Fonts */,
 				4672A4C226C3B6D000BC52DD /* Assets.xcassets */,
 				4672A4C726C3B6D000BC52DD /* Info.plist */,
 				4672A4C426C3B6D000BC52DD /* Preview Content */,
@@ -62,8 +63,7 @@
 		4672A4BD26C3B6CF00BC52DD /* CV */ = {
 			isa = PBXGroup;
 			children = (
-				4672A4BE26C3B6CF00BC52DD /* CVApp.swift */,
-				4672A4C026C3B6CF00BC52DD /* ContentView.swift */,
+				46F178AF26C3DD060074152E /* Code */,
 				4650691726C3D906009AAF65 /* Resources */,
 			);
 			path = CV;
@@ -75,6 +75,54 @@
 				4672A4C526C3B6D000BC52DD /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		46F178AF26C3DD060074152E /* Code */ = {
+			isa = PBXGroup;
+			children = (
+				46F178B326C3DD2E0074152E /* Controllers */,
+				46F178B226C3DD1C0074152E /* Services */,
+				46F178B126C3DD150074152E /* Views */,
+			);
+			path = Code;
+			sourceTree = "<group>";
+		};
+		46F178B026C3DD100074152E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		46F178B126C3DD150074152E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4672A4C026C3B6CF00BC52DD /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		46F178B226C3DD1C0074152E /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				46F178B026C3DD100074152E /* Models */,
+				4672A4BE26C3B6CF00BC52DD /* CVApp.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		46F178B326C3DD2E0074152E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		46F178B426C3DD680074152E /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,9 +324,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"CV/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"CV/Resources/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = CV/Info.plist;
+				INFOPLIST_FILE = CV/Resources/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -297,9 +345,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"CV/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"CV/Resources/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = CV/Info.plist;
+				INFOPLIST_FILE = CV/Resources/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
