@@ -31,6 +31,8 @@
 		46F178D826C3DEC40074152E /* Montserrat-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 46F178C626C3DEC40074152E /* Montserrat-LightItalic.ttf */; };
 		46F178DB26C3DF550074152E /* ColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F178DA26C3DF550074152E /* ColorExtensions.swift */; };
 		46F178DE26C3DFD60074152E /* FontManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F178DD26C3DFD60074152E /* FontManager.swift */; };
+		46F178E026C4073D0074152E /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F178DF26C4073D0074152E /* Profile.swift */; };
+		46F178E226C407FC0074152E /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F178E126C407FC0074152E /* AppModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,6 +62,8 @@
 		46F178C626C3DEC40074152E /* Montserrat-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-LightItalic.ttf"; sourceTree = "<group>"; };
 		46F178DA26C3DF550074152E /* ColorExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtensions.swift; sourceTree = "<group>"; };
 		46F178DD26C3DFD60074152E /* FontManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontManager.swift; sourceTree = "<group>"; };
+		46F178DF26C4073D0074152E /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		46F178E126C407FC0074152E /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +124,7 @@
 		46F178AF26C3DD060074152E /* Code */ = {
 			isa = PBXGroup;
 			children = (
+				46F178B026C3DD100074152E /* Models */,
 				46F178DC26C3DFC50074152E /* Utils */,
 				46F178D926C3DF270074152E /* Extensions */,
 				46F178B326C3DD2E0074152E /* Controllers */,
@@ -132,6 +137,7 @@
 		46F178B026C3DD100074152E /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				46F178DF26C4073D0074152E /* Profile.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -147,8 +153,8 @@
 		46F178B226C3DD1C0074152E /* Services */ = {
 			isa = PBXGroup;
 			children = (
-				46F178B026C3DD100074152E /* Models */,
 				4672A4BE26C3B6CF00BC52DD /* CVApp.swift */,
+				46F178E126C407FC0074152E /* AppModel.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -289,6 +295,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				4672A4C126C3B6CF00BC52DD /* ContentView.swift in Sources */,
+				46F178E226C407FC0074152E /* AppModel.swift in Sources */,
+				46F178E026C4073D0074152E /* Profile.swift in Sources */,
 				4672A4BF26C3B6CF00BC52DD /* CVApp.swift in Sources */,
 				46F178DE26C3DFD60074152E /* FontManager.swift in Sources */,
 				46F178DB26C3DF550074152E /* ColorExtensions.swift in Sources */,
