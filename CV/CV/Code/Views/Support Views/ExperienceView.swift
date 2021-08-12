@@ -26,13 +26,15 @@ struct ExperienceView: View {
                     Text(experience.companyName)
                         .font(Montserrat.medium.font(size: 16))
                         .opacity(0.7)
+                        .padding(.top, 4)
                     Text(experience.duration)
                         .font(Montserrat.mediumItalic.font(size: 16))
                         .opacity(0.4)
+                        .padding(.top, 4)
 
                 }.padding(.leading, 16)
             }.padding(.top, 8)
-        }
+        }.fixedSize()
     }
 }
 

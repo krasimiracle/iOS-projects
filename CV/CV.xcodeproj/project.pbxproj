@@ -37,6 +37,7 @@
 		46F178E726C523E90074152E /* SkillView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F178E626C523E90074152E /* SkillView.swift */; };
 		46F178EA26C52E180074152E /* SkillsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F178E926C52E180074152E /* SkillsView.swift */; };
 		46F178EC26C5325A0074152E /* ExperienceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F178EB26C5325A0074152E /* ExperienceView.swift */; };
+		46F178EE26C54B390074152E /* ExperiencesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F178ED26C54B390074152E /* ExperiencesView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -72,6 +73,7 @@
 		46F178E626C523E90074152E /* SkillView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillView.swift; sourceTree = "<group>"; };
 		46F178E926C52E180074152E /* SkillsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillsView.swift; sourceTree = "<group>"; };
 		46F178EB26C5325A0074152E /* ExperienceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExperienceView.swift; sourceTree = "<group>"; };
+		46F178ED26C54B390074152E /* ExperiencesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExperiencesView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -223,6 +225,7 @@
 				46F178E626C523E90074152E /* SkillView.swift */,
 				46F178E926C52E180074152E /* SkillsView.swift */,
 				46F178EB26C5325A0074152E /* ExperienceView.swift */,
+				46F178ED26C54B390074152E /* ExperiencesView.swift */,
 			);
 			path = "Support Views";
 			sourceTree = "<group>";
@@ -316,6 +319,7 @@
 			files = (
 				4672A4C126C3B6CF00BC52DD /* ContentView.swift in Sources */,
 				46F178E226C407FC0074152E /* AppModel.swift in Sources */,
+				46F178EE26C54B390074152E /* ExperiencesView.swift in Sources */,
 				46F178E026C4073D0074152E /* Profile.swift in Sources */,
 				46F178EA26C52E180074152E /* SkillsView.swift in Sources */,
 				4672A4BF26C3B6CF00BC52DD /* CVApp.swift in Sources */,
