@@ -19,6 +19,8 @@ struct ContentView: View {
             ScrollView(.vertical, showsIndicators: false) {
                 VStack(alignment: .leading) {
                     HeaderView(appModel: appModel)
+                    SkillsView(skills: appModel.profile.skills, width: UIScreen.main.bounds.width - 48).padding(.top,32)
+                    ExperiencesView(experiences: appModel.profile.experiences).padding(.top, 32)
                 }
             }.padding(24)
         }

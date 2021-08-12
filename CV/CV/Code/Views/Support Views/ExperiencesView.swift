@@ -27,7 +27,7 @@ struct ExperiencesView: View {
                         .font(.system(size: 18, weight: .medium))
                         .rotationEffect(self.showExperience ? .zero : .degrees(180))
                 }.buttonStyle(PlainButtonStyle())
-            }.padding(14)
+            }.padding(.bottom, 14)
             
             if(showExperience) {
                     ForEach(experiences) {

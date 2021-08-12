@@ -13,7 +13,11 @@ struct HeaderView: View {
 
     var body: some View {
         VStack {
-            Image("profile")
+            HStack {
+                Spacer()
+                Image("profile")
+                Spacer()
+            }
             Text(appModel.profile.name)
                 .font(Montserrat.bold.font(size: 17))
             Text(appModel.profile.role)
