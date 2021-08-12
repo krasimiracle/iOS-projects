@@ -33,6 +33,7 @@
 		46F178DE26C3DFD60074152E /* FontManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F178DD26C3DFD60074152E /* FontManager.swift */; };
 		46F178E026C4073D0074152E /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F178DF26C4073D0074152E /* Profile.swift */; };
 		46F178E226C407FC0074152E /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F178E126C407FC0074152E /* AppModel.swift */; };
+		46F178E526C40BCE0074152E /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F178E426C40BCE0074152E /* HeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -64,6 +65,7 @@
 		46F178DD26C3DFD60074152E /* FontManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontManager.swift; sourceTree = "<group>"; };
 		46F178DF26C4073D0074152E /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 		46F178E126C407FC0074152E /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
+		46F178E426C40BCE0074152E /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +147,7 @@
 		46F178B126C3DD150074152E /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				46F178E326C40BB10074152E /* Support Views */,
 				4672A4C026C3B6CF00BC52DD /* ContentView.swift */,
 			);
 			path = Views;
@@ -205,6 +208,14 @@
 				46F178DD26C3DFD60074152E /* FontManager.swift */,
 			);
 			path = Utils;
+			sourceTree = "<group>";
+		};
+		46F178E326C40BB10074152E /* Support Views */ = {
+			isa = PBXGroup;
+			children = (
+				46F178E426C40BCE0074152E /* HeaderView.swift */,
+			);
+			path = "Support Views";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -300,6 +311,7 @@
 				4672A4BF26C3B6CF00BC52DD /* CVApp.swift in Sources */,
 				46F178DE26C3DFD60074152E /* FontManager.swift in Sources */,
 				46F178DB26C3DF550074152E /* ColorExtensions.swift in Sources */,
+				46F178E526C40BCE0074152E /* HeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

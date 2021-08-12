@@ -8,14 +8,25 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    var appModel: AppModel = AppModel()
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        ZStack {
+            Color(UIColor.systemBackground)
+                .ignoresSafeArea()
+            
+            ScrollView(.vertical, showsIndicators: false) {
+                VStack(alignment: .leading) {
+                    HeaderView(appModel: appModel)
+                }
+            }.padding(24)
+        }
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ContentView().colorScheme(.dark)
     }
 }
