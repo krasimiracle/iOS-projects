@@ -35,6 +35,7 @@
 		46F178E226C407FC0074152E /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F178E126C407FC0074152E /* AppModel.swift */; };
 		46F178E526C40BCE0074152E /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F178E426C40BCE0074152E /* HeaderView.swift */; };
 		46F178E726C523E90074152E /* SkillView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F178E626C523E90074152E /* SkillView.swift */; };
+		46F178EA26C52E180074152E /* SkillsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F178E926C52E180074152E /* SkillsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -68,6 +69,7 @@
 		46F178E126C407FC0074152E /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
 		46F178E426C40BCE0074152E /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		46F178E626C523E90074152E /* SkillView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillView.swift; sourceTree = "<group>"; };
+		46F178E926C52E180074152E /* SkillsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -217,6 +219,7 @@
 			children = (
 				46F178E426C40BCE0074152E /* HeaderView.swift */,
 				46F178E626C523E90074152E /* SkillView.swift */,
+				46F178E926C52E180074152E /* SkillsView.swift */,
 			);
 			path = "Support Views";
 			sourceTree = "<group>";
@@ -311,6 +314,7 @@
 				4672A4C126C3B6CF00BC52DD /* ContentView.swift in Sources */,
 				46F178E226C407FC0074152E /* AppModel.swift in Sources */,
 				46F178E026C4073D0074152E /* Profile.swift in Sources */,
+				46F178EA26C52E180074152E /* SkillsView.swift in Sources */,
 				4672A4BF26C3B6CF00BC52DD /* CVApp.swift in Sources */,
 				46F178E726C523E90074152E /* SkillView.swift in Sources */,
 				46F178DE26C3DFD60074152E /* FontManager.swift in Sources */,
